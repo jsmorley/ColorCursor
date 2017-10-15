@@ -20,6 +20,5 @@ Documentation for the SDK at [Developers Documentation](https://docs.rainmeter.n
 
 ## Commands 
 
-`[!CommandMeasure MeasureName "GetColor"]`
-
+`[!CommandMeasure MeasureName "GetColor"]`  
 When executed in an action, the plugin will return the color of the pixel under the mouse cursor
