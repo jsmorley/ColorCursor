@@ -2,11 +2,8 @@
 
 Creates the ColorCursor.dll plugin for Rainmeter.
 
-Build in conjunction with the Rainmeter Plugin SDK from:
-[Rainmeter Plugin SDK](https://github.com/rainmeter/rainmeter-plugin-sdk)
-
-Documentation for the SDK at:
-[Developers Documentation](https://docs.rainmeter.net/developers/#CreatePlugin)
+Build in conjunction with the Rainmeter Plugin SDK from [Rainmeter Plugin SDK](https://github.com/rainmeter/rainmeter-plugin-sdk)  
+Documentation for the SDK at [Developers Documentation](https://docs.rainmeter.net/developers/#CreatePlugin)
 
 ## Options
 
