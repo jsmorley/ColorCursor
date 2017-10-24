@@ -112,7 +112,6 @@ void CreateBMPFile(LPCTSTR pszFile, PBITMAPINFO pbi,
 		FILE_ATTRIBUTE_NORMAL,
 		(HANDLE)NULL);
 	if (hf == INVALID_HANDLE_VALUE) {
-		RmLog(rm, LOG_WARNING, pszFile);
 		return;
 	}
 
