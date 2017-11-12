@@ -18,7 +18,19 @@ Documentation for the SDK at [Developers Documentation](https://docs.rainmeter.n
 `RealTime=0` (default) Plugin will do nothing until called with !CommandMeasure  
 `RealTime=1` Plugin will constantly return the color of the pixel under the mouse cursor
 
+If RealTime=1 then other options are valid:  
+
+`ZoomCreate` 0 or 1 to turn off / on returning a zoomed bitmap image of the area around the cursor  
+`ZoomToWidth` Number of pixels width for the image to return  
+`ZoomToHeight` Number of pixels height for the image to return  
+`ZoomFactor` Number of times to "zoom" the area around the cursor  
+
+The plugin will return "ZoomBitmap.bmp" in the current skin folder on each measure update.  
+The center of the bitmap will be the current cursor location.  
+
 ## Commands 
 
 `[!CommandMeasure MeasureName "GetColor"]`  
 When executed in an action, the plugin will return the color of the pixel under the mouse cursor
+
+
